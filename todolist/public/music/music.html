@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index(1).css"/>
+		<script type="text/javascript" src="js/transformCss.js"></script>
+		<script type="text/javascript" src="js/drag.js"></script>
+	</head>
+	<body>
+		<!--模拟屏幕区域-->
+		<div id="wrap">
+			<!--头部-->
+			<div id="header">
+				<!--上半部-->
+				<div id="headerTop">
+					<!--logo-->
+					<h1 id="logo">
+						<img src="img/logo.png"/>
+					</h1>
+					<!--菜单按钮切换-->
+					<a href="###" id="menuBtn" class="menuBtnClose"></a>
+					<!--三个按钮区域-->
+					<div id="btns">
+						<a href="###" id="searchBtn">搜索</a>
+						<a href="###">登录</a>
+						<a href="###">注册</a>
+					</div>					
+				</div>
+				<!--下半部-->
+				<form id="search">
+					<!--placeholder 提示信息 -->
+					<input type="text" placeholder="请输入内容。。。" />
+					<input type="submit" value="搜索"/>
+				</form>
+				<!--遮罩层-->
+				<ul id="list">
+					<li>
+						<a href="javascript:;">首页</a>
+					</li>
+					<li>
+						<a href="javascript:;">MV</a>
+					</li>
+					<li>
+						<a href="javascript:;">悦单</a>
+					</li>
+					<li>
+						<a href="javascript:;">V榜</a>
+					</li>
+					<li>
+						<a href="javascript:;">音悦</a>
+					</li>
+					<li>
+						<a href="javascript:;">商城</a>
+					</li>
+					<li>
+						<a href="javascript:;">节目</a>
+					</li>
+					<li>
+						<a href="javascript:;">饭团</a>
+					</li>
+					<li>
+						<a href="javascript:;">资讯</a>
+					</li>
+					<li>
+						<a href="javascript:;">我的家</a>
+					</li>
+					<li>
+						<a href="javascript:;">APP下载</a>
+					</li>
+					<li>
+						<a href="javascript:;">热门应用</a>
+					</li>
+				</ul>
+				
+			</div>
+			<!--内容区域-->
+			<div id="conWrap">							
+				<div id="content">
+				<!--导航-->
+				<div id="navsWrap">
+					<ul id="navList">
+						<li class="active">
+							<a href="javascript:;">首页</a>
+						</li>
+						<li>
+							<a href="javascript:;">MV</a>
+						</li>
+						<li>
+							<a href="javascript:;">悦单</a>
+						</li>
+						<li>
+							<a href="javascript:;">V榜</a>
+						</li>
+						<li>
+							<a href="javascript:;">音悦</a>
+						</li>
+						<li>
+							<a href="javascript:;">商城</a>
+						</li>
+						<li>
+							<a href="javascript:;">节目</a>
+						</li>
+						<li>
+							<a href="javascript:;">饭团</a>
+						</li>
+						<li>
+							<a href="javascript:;">资讯</a>
+						</li>
+						<li>
+							<a href="javascript:;">我的家</a>
+						</li>
+						<li>
+							<a href="javascript:;">APP下载</a>
+						</li>
+						<li>
+							<a href="javascript:;">热门应用</a>
+						</li>
+					</ul>				
+				</div>
+				
+				<!--无缝-->
+				<div id="pic_wrap">
+					<ul id="pic_list">
+						<li>
+							<a href="###">
+								<img src="img/1.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/2.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/3.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/4.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/5.jpg" />
+							</a>
+						</li>
+					</ul>
+					<!--小圆点-->
+					<div id="pic_icons">
+						<span class="active"></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				
+				<!--tab-->
+				<div class="tab">
+					<div class="tab_header">
+						<h2>MV首播</h2>
+						<a href="###">更多&gt;</a><!--&gt; 大于号 ， &lt;小于号-->					
+					</div>
+					<!--nav 专门用作导航区域，与div一样，块元素-->
+					<nav class="tab_nav">
+						<a href="###">全部</a>
+						<a href="###">内地</a>
+						<a href="###">港台</a>
+						<a href="###">欧美</a>
+						<a href="###">韩国</a>
+						<a href="###">日本</a>
+						<span class="smallGreen"></span>
+					</nav>
+					<div class="tabWrap">
+						<!--loading图-->
+						<ul class="tabLoading"></ul>
+						<!--列表区域-->
+						<ul class="tabList">
+							<li>
+								<img src="img/a.jpg"/>
+								<span>永世のクレイドル永世のクレイドル永世のクレイドル</span>
+								<div class="ice">
+									<div class="ice_left">
+										<span class="ice_pic"></span>
+										<span>9169</span>
+									</div>
+									<div class="ice_right">
+										<span class="ice_pic"></span>
+										<span>9</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="img/b.jpg"/>
+								<span>永世のクレイドル</span>
+								<div class="ice">
+									<div class="ice_left">
+										<span class="ice_pic"></span>
+										<span>9169</span>
+									</div>
+									<div class="ice_right">
+										<span class="ice_pic"></span>
+										<span>9</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="img/c.jpg"/>
+								<span>永世のクレイドル</span>
+								<div class="ice">
+									<div class="ice_left">
+										<span class="ice_pic"></span>
+										<span>9169</span>
+									</div>
+									<div class="ice_right">
+										<span class="ice_pic"></span>
+										<span>9</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="img/d.jpg"/>
+								<span>永世のクレイドル</span>
+								<div class="ice">
+									<div class="ice_left">
+										<span class="ice_pic"></span>
+										<span>9169</span>
+									</div>
+									<div class="ice_right">
+										<span class="ice_pic"></span>
+										<span>9</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="img/e.jpg"/>
+								<span>永世のクレイドル</span>
+								<div class="ice">
+									<div class="ice_left">
+										<span class="ice_pic"></span>
+										<span>9169</span>
+									</div>
+									<div class="ice_right">
+										<span class="ice_pic"></span>
+										<span>9</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="img/f.jpg"/>
+								<span>永世のクレイドル</span>
+								<div class="ice">
+									<div class="ice_left">
+										<span class="ice_pic"></span>
+										<span>9169</span>
+									</div>
+									<div class="ice_right">
+										<span class="ice_pic"></span>
+										<span>9</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+						
+						<!--loading图-->
+						<ul class="tabLoading"></ul>
+					</div>										
+				</div>
+				
+				<div class="tab">
+					<div class="tab_header">
+						<h2>MV首播</h2>
+						<a href="###">更多&gt;</a><!--&gt; 大于号 ， &lt;小于号-->					
+					</div>
+					<!--nav 专门用作导航区域，与div一样，块元素-->
+					<nav class="tab_nav">
+						<a href="###">全部</a>
+						<a href="###">内地</a>
+						<a href="###">港台</a>
+						<a href="###">欧美</a>
+						<a href="###">韩国</a>
+						<a href="###">日本</a>
+						<span class="smallGreen"></span>
+					</nav>
+					<div class="tabWrap">
+						<!--loading图-->
+						<ul class="tabLoading"></ul>
+						<!--列表区域-->
+						<ul class="tabList">
+							<li>
+								<img src="img/a.jpg"/>
+								<span>永世のクレイドル永世のクレイドル永世のクレイドル</span>
+								<div class="ice">
+									<div class="ice_left">
+										<span class="ice_pic"></span>
+										<span>9169</span>
+									</div>
+									<div class="ice_right">
+										<span class="ice_pic"></span>
+										<span>9</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="img/b.jpg"/>
+								<span>永世のクレイドル</span>
+								<div class="ice">
+									<div class="ice_left">
+										<span class="ice_pic"></span>
+										<span>9169</span>
+									</div>
+									<div class="ice_right">
+										<span class="ice_pic"></span>
+										<span>9</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="img/c.jpg"/>
+								<span>永世のクレイドル</span>
+								<div class="ice">
+									<div class="ice_left">
+										<span class="ice_pic"></span>
+										<span>9169</span>
+									</div>
+									<div class="ice_right">
+										<span class="ice_pic"></span>
+										<span>9</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="img/d.jpg"/>
+								<span>永世のクレイドル</span>
+								<div class="ice">
+									<div class="ice_left">
+										<span class="ice_pic"></span>
+										<span>9169</span>
+									</div>
+									<div class="ice_right">
+										<span class="ice_pic"></span>
+										<span>9</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="img/e.jpg"/>
+								<span>永世のクレイドル</span>
+								<div class="ice">
+									<div class="ice_left">
+										<span class="ice_pic"></span>
+										<span>9169</span>
+									</div>
+									<div class="ice_right">
+										<span class="ice_pic"></span>
+										<span>9</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="img/f.jpg"/>
+								<span>永世のクレイドル</span>
+								<div class="ice">
+									<div class="ice_left">
+										<span class="ice_pic"></span>
+										<span>9169</span>
+									</div>
+									<div class="ice_right">
+										<span class="ice_pic"></span>
+										<span>9</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+						
+						<!--loading图-->
+						<ul class="tabLoading"></ul>
+					</div>										
+				</div>
+				
+				
+			</div>
+			
+			</div>
+		</div>
+		<div id="scrollBar"></div>
+	</body>
+	<script type="text/javascript" src="js/transformCss.js"></script>
+	<script type="text/javascript" src="js/drag.js"></script>
+	<script type="text/javascript">
+		//取消系统默认行为
+		document.addEventListener('touchstart',function(event){
+			event.preventDefault();
+		});
+		
+		//rem适配
+		(function(){
+			var width = document.documentElement.clientWidth;
+			var styleNode = document.createElement('style');
+			styleNode.innerHTML = 'html{font-size: '+ width/16 +'px !important;}';
+			document.head.appendChild(styleNode);
+		})();
+		
+		window.onload = function(){
+			changeMenu();
+			changeColor();
+			navDrag();
+			banner();
+			tab();
+			
+			drag();
+		};
+		
+		//竖向
+		function drag(){
+			var conWrap = document.getElementById('conWrap');
+			var scrollBar = document.getElementById('scrollBar');
+			var content = document.getElementById('content');
+			//滚动条高度
+			var scale = document.documentElement.clientHeight/content.offsetHeight;
+			scrollBar.style.height = scale * document.documentElement.clientHeight + 'px';
+		
+			var callback = {
+				start:function(){
+					//滚动条需要显示出来
+					scrollBar.style.opacity = '1';
+				},
+				move:function(){				
+					//滚动条需要显示出来
+					scrollBar.style.opacity = '1';
+					//滚动条动起来
+					//滚动条的偏移量 = 内容偏移量 * scale
+					var dis = transformCss(content,'translateY')*scale;
+					transformCss(scrollBar,'translateY',-dis)
+				},
+				end:function(){
+					//消失
+					scrollBar.style.opacity = '0';
+				}
+				
+			};
+			wrapDrag(conWrap,callback);
+		};
+		
+		//tab区域
+		function tab(){
+			var tabWrap = document.querySelectorAll('.tabWrap');
+			var tabNav = document.querySelectorAll('.tab_nav');
+			var translateX = tabNav[0].offsetWidth;
+			
+			
+			for(var i=0;i<tabWrap.length;i++){
+				move(tabWrap[i],tabNav[i]);				
+			};
+			
+			function move(tabWrap,tabNav){
+				//中间ul区域显示出来
+				transformCss(tabWrap,'translateX',-translateX);
+				transformCss(tabWrap,'translateZ',0.1);
+				
+				//横向滑屏
+				
+				//定义元素初始位置
+				var eleX = 0;
+				
+				//定义手指初始位置
+				var startX = 0;
+				//防抖动
+				var　startY = 0;
+				var isFirst = true;
+				var isX = true;
+				
+				//loading图默认是没有
+				//loading图一旦出来，逻辑需要被禁止掉
+				var isLoad = false;				
+				var loadings = tabWrap.querySelectorAll('.tabLoading');
+				
+				
+				//小绿
+				var smallGreen = tabNav.querySelector('.smallGreen');
+				//console.log(smallGreen)
+				var aNodes = tabNav.querySelectorAll('a');
+//				console.log(aNodes.length);
+				//定义a的索引值
+				var nowA = 0;
+				
+				tabWrap.addEventListener('touchstart',function(event){
+					var touch = event.changedTouches[0];
+					
+					//loading图一旦出来，逻辑需要被禁止掉
+					if(isLoad){
+						return;
+					};
+//					console.log(11111)
+					
+					//清除过渡
+					tabWrap.style.transition = 'none';
+					
+					//元素初始位置
+					eleX = transformCss(tabWrap,'translateX');
+					//手指初始位置
+					startX = touch.clientX;
+					startY = touch.clientY;
+					
+					//重置
+					isFirst = true;
+					isX = true;
+				});
+				tabWrap.addEventListener('touchmove',function(event){
+					var touch = event.changedTouches[0];
+					
+					//loading图一旦出来，逻辑需要被禁止掉
+					if(isLoad){
+						return;
+					};
+//					console.log(22222)
+					
+					//第二次touchmove
+					if(!isX){
+						return;
+					};
+					
+					//手指结束位置
+					var endX = touch.clientX;
+					var endY = touch.clientY;
+					//手指距离差
+					var disX = endX - startX;
+					var disY = endY - startY;
+					
+					//防抖动
+					if(isFirst){
+						isFirst = false;
+						if(Math.abs(disY) > Math.abs(disX)){
+							isX = false;
+							//第一次touchmove
+							return;
+						};
+					};					
+					//确定元素位置
+					transformCss(tabWrap,'translateX',disX+eleX);
+					
+					
+					//手指划过1/2,调到loading图区域
+					if(Math.abs(disX) > translateX/2){										
+						//disX > 0 ----- 0  (左边load出来)
+						//disX < 0 ----- -2*translateX (右边load出来)
+						
+						var target = disX > 0 ? 0 : -2*translateX;
+						
+						//过渡
+						tabWrap.style.transition = '1s';
+						//重新给tabWrap元素设置移动的位置
+						transformCss(tabWrap,'translateX',target);
+						
+						
+						//手指向左，disX < 0 --- nowA++;
+						//手指向右，disX > 0 --- nowA--;
+						if(disX < 0){
+							nowA = nowA + 1;
+						}else{
+							nowA = nowA - 1;
+						};
+						//限定范围
+						if(nowA > aNodes.length-1){
+							nowA = 0;
+						}else if(nowA < 0){
+							nowA = aNodes.length-1;
+						};
+						console.log(nowA);
+						
+						smallGreen.style.transition = '0.5s';
+						//小绿出来
+						transformCss(smallGreen,'translateX',aNodes[nowA].offsetLeft);
+						transformCss(smallGreen,'translateZ',0.1);
+						
+						//load图该有了
+						//isLoad = true;所有的逻辑需要被禁止掉
+						isLoad = true;
+						
+						//必须等到过渡结束之后才能执行
+						//transitionEnd 过渡结束才能被触发
+						//兼容问题
+						tabWrap.addEventListener('transitionEnd',fun);
+						tabWrap.addEventListener('webkitTransitionEnd',fun);
+						
+						function fun(){
+							//loading图需要显示出来
+							//for (var i=0;i<loadings.length;i++) {
+															
+								if(disX < 0 ){
+									//手指向左，第二张出来
+									loadings[1].style.opacity = '1';
+								}else{
+									//手指向右，第一张出来
+									loadings[0].style.opacity = '1';
+								};													
+							//};
+							
+							//load图出来之后，才会去加载数据
+							//让load图 先显示3s，然后我的中间部分才会显示出来
+							setTimeout(function(){
+								
+								tabWrap.style.transition = 'none';
+								//中间部分才会显示出来
+								transformCss(tabWrap,'translateX',-translateX);
+								isLoad = false;
+								//清除loading图
+								for (var i=0;i<loadings.length;i++) {																							
+									loadings[i].style.opacity = '0';																				
+								};
+								
+							},3000);
+							
+							
+							//解绑
+							tabWrap.removeEventListener('transitionEnd',fun);
+							tabWrap.removeEventListener('webkitTransitionEnd',fun);
+						};
+						
+						
+						
+					};
+					
+					
+					
+				});
+				//手指没有划过1/2,调到中间ul区域
+				tabWrap.addEventListener('touchend',function(){
+					var touch = event.changedTouches[0];
+					
+					//loading图一旦出来，逻辑需要被禁止掉
+					if(isLoad){
+						return;
+					};
+//					console.log(3333)
+					
+					var endX = touch.clientX;
+					var disX = endX - startX;
+					
+					if(Math.abs(disX) < translateX/2){
+						//过渡
+						tabWrap.style.transition = '1s';
+						transformCss(tabWrap,'translateX',-translateX);
+					};
+					
+				});
+				
+				
+				
+			};
+			
+		};
+		
+		
+		
+		//无缝		
+		function banner(){
+			//获取元素
+			var wrap = document.getElementById('pic_wrap');
+			var list = document.getElementById('pic_list');
+			transformCss(list,'translateZ',0.1);
+			list.innerHTML += list.innerHTML;
+			var liNodes = document.querySelectorAll('#pic_list li');
+			var spanNodes = document.querySelectorAll('#pic_icons span');
+			
+			//布局
+			//创建style标签
+			var styleN = document.createElement('style');
+			styleN.innerHTML = '#pic_list{width: '+ liNodes.length +'00%;}';
+			styleN.innerHTML += '#pic_list li{width: '+ (100/liNodes.length) +'%;}';
+			//设置wrap高度，因为子元素绝对定位，父元素高度塌陷
+			styleN.innerHTML += '#pic_wrap{height: '+ liNodes[0].offsetHeight +'px;}';
+			document.head.appendChild(styleN);
+		
+			//横向滑屏
+			//定义元素初始位置
+			var eleX = 0;
+			//定义手指初始位置
+			var startX = 0;
+			
+			
+			//当前图片索引下标
+			var now = 0;
+			
+			//定义定时器
+			var timer = 0;
+			
+			//防抖动
+			var startY = 0;
+			//手指第一次touchmove
+			var isFirst = true;
+			//x方向逻辑是否执行
+			var isX = true;
+						
+			wrap.addEventListener('touchstart',function(event){
+				var touch = event.changedTouches[0];				
+				//清除过渡
+				list.style.transition = 'none';
+				//清除定时器
+				clearInterval(timer);
+				
+				//无缝处理
+				//当手指在第一组第一张图片上，调到第二组第一张
+				//当手指在第二组最后图片上，调到第一组最后一张
+				if(now == 0){
+					now = spanNodes.length;
+				}else if(now == liNodes.length-1){
+					now = spanNodes.length-1;
+				};
+				//真正的跳转工作
+				transformCss(list,'translateX',-now*document.documentElement.clientWidth);
+				
+				
+				//元素初始位置 --- 读
+				eleX = transformCss(list,'translateX');
+				//手指初始位置
+				startX = touch.clientX;
+				startY = touch.clientY;
+				
+				//清空上一次一流的isFirst ,isX
+				isFirst = true;
+				isX = true;
+			});
+			wrap.addEventListener('touchmove',function(event){
+				var touch = event.changedTouches[0];
+				//禁止不是第一次的逻辑
+				//此时判断第一次touchmove 中 isX的值，isX = fasle;
+				//下面的所有关于x方向的逻辑需要全部被禁止掉
+				if(!isX){
+					return;
+				}
+				//手指结束位置
+				var endX = touch.clientX;
+				var endY = touch.clientY;
+				//手指距离差
+				var disX = endX - startX;
+				var disY = endY - startY;
+				
+				//手指上来默认是第一次，一旦进入if语句，下一次touchmove就不是第一次
+				//所以：isFirst = false;
+				if(isFirst){
+					isFirst = false;
+					//防抖动 ，如果disY > disX ,x方向逻辑需要被禁止掉
+					if(Math.abs(disY) > Math.abs(disX)){
+						console.log(11111)
+						//x方向逻辑需要被禁止掉
+						isX = false;
+						return;	 //第一次touchmove的x方向的逻辑
+						console.log(22222)
+					};
+					console.log(33333)
+				};
+					
+				console.log(44444)	
+				//	确定元素位置
+				transformCss(list,'translateX',disX+eleX);				
+			});
+			//图片跳转
+			wrap.addEventListener('touchend',function(event){
+				var touch = event.changedTouches[0];
+				
+				
+				//读取元素当前位置
+				var bbb = transformCss(list,'translateX');
+				
+				//四舍五入 Math.round();
+				now = Math.round(-bbb/document.documentElement.clientWidth);
+				
+				//限定now范围
+				if(now < 0){
+					now = 0
+				}else if(now >= liNodes.length){
+					now = liNodes.length -1;
+				};
+				
+				//过渡
+				list.style.transition = '0.5s';
+				
+				//确定元素位置
+				transformCss(list,'translateX',-now * document.documentElement.clientWidth);
+				
+				//同步小圆点
+				//遍历span，给每一个span添加一个class属性
+				for(var i=0;i<spanNodes.length;i++){
+					spanNodes[i].className = '';
+				};
+				//切换到那一张图片上，对应的小圆点背景色发生改变
+				//如果给数字取余（取模）， 10 取余，余数范围0-9
+				spanNodes[now%spanNodes.length].className = 'active';
+				
+				//开启定时器
+				auto();
+				
+			});
+			
+			
+			auto();
+			function auto(){
+				//自动滑屏
+				
+				//通过定时器解决
+				timer = setInterval(function(){
+					//自动滑屏无缝
+					if(now == liNodes.length-1){
+						now = spanNodes.length-1;
+					};
+					//清除过渡
+					list.style.transition = 'none';
+					transformCss(list,'translateX',-now*document.documentElement.clientWidth);
+					
+					
+					setTimeout(function(){
+						//自动滑屏
+						now++;
+						//过渡
+						list.style.transition = '0.5s';
+						//元素发生移动
+						transformCss(list,'translateX',-now*document.documentElement.clientWidth);
+						
+						//小圆点
+						for(var i=0;i<spanNodes.length;i++){
+							spanNodes[i].className = '';
+						};
+						spanNodes[now%spanNodes.length].className = 'active';
+					},30);
+					
+				},1000);
+			
+			};
+			
+			
+			
+		};
+		
+		
+		//导航拖拽
+		
+		function navDrag(){
+			// 元素初始位置+ 手指距离差
+			var navsWrap = document.getElementById('navsWrap');
+			var navList = document.getElementById('navList');
+			transformCss(navList,'translateZ',0.1);
+			
+			//定义元素初始位置
+			var eleX = 0;
+			//定义手指初始位置
+			var startX = 0;
+			
+			//初始时间
+			var beginTime = 0;
+			//初始位置
+			var beginValue = 0;
+			//结束时间
+			var endTime = 0;
+			//结束位置
+			var endValue = 0;
+			//时间差
+			var disTime = 1;
+			//距离差
+			var disValue = 0;
+			
+			navsWrap.addEventListener('touchstart',function(event){
+				var touch = event.changedTouches[0];
+				
+				//清除过渡
+				navList.style.transition = 'none';
+				
+				//元素初始位置
+				eleX = transformCss(navList,'translateX');
+				//手指初始位置
+				startX = touch.clientX;
+				
+				
+				//初始时间
+				beginTime = new Date().getTime(); // 毫秒
+				//初始位置
+				beginValue = eleX;
+				
+				//清除上一次遗留的disValue
+				disValue = 0;
+			});
+			navsWrap.addEventListener('touchmove',function(event){
+				var touch = event.changedTouches[0];
+				//手指结束位置
+				var endX = touch.clientX;
+				
+				//手指距离差
+				var disX = endX - startX;
+				
+				//橡皮筋拖的过程
+				var translateX = disX+eleX;
+				var minX = document.documentElement.clientWidth - navList.offsetWidth;
+				if(translateX > 0){
+					//比例，比例减小的
+					//为了保证不同机型实现的效果类似
+					var scale  = 1 - translateX/document.documentElement.clientWidth;
+
+					//translateX整体处于增加的状态，但是每次增加的幅度在减小
+					//抛物线
+					translateX = translateX*scale;
+
+				}else if(translateX < minX){
+					//留白区域距离,留白区域为正直
+					//绝对值或者正负号调整 
+					var over = minX - translateX;
+					var scale  = 1 - over/document.documentElement.clientWidth;
+					
+					translateX = minX - over*scale;
+					
+				};
+				
+				//确定元素位置
+				transformCss(navList,'translateX',translateX);
+				
+				//结束时间
+				endTime = new Date().getTime();
+				//结束位置
+				endValue = translateX;
+				//时间差
+				disTime = endTime - beginTime;
+				//距离差
+				disValue = endValue - beginValue;
+				
+			});
+			
+			//加速滑动
+			navsWrap.addEventListener('touchend',function(){
+				var speed = disValue/disTime;
+//				var speed = disValue/(endTime - beginTime);
+//				console.log(disValue);
+//				console.log(speed);
+				//console.log(endTime) //0
+				//console.log(beginTime) //1508221082477
+				
+				
+				//目标位置 = 元素的touchmove产生的距离+速度产生的距离
+				var target = transformCss(navList,'translateX')+speed*100;
+				
+				//橡皮筋回弹
+				//cubic-bezier(.08,1.65,.87,1.61)
+				var minX = document.documentElement.clientWidth - navList.offsetWidth;
+				var bezier = '';
+				if(target > 0){
+					target = 0;
+					bezier = 'cubic-bezier(.08,1.65,.87,1.61)';
+				}else if(target < minX){
+					target = minX;
+					bezier = 'cubic-bezier(.08,1.65,.87,1.61)';
+				};
+				
+				//过渡
+				//transition:3s cubic-bezier(.08,1.65,.87,1.61);
+				navList.style.transition = '2s '+ bezier;
+				//确定元素最终位置
+				transformCss(navList,'translateX',target);
+				
+			});
+			
+		};
+		
+		
+		//点击变色
+		
+		function changeColor(){
+			var liNodes = document.querySelectorAll('#navList li');
+			
+			//第一层for循环，给每一个li绑定touchend
+			for(var i=0;i<liNodes.length;i++){
+				//误触
+				var flag = false;
+				liNodes[i].addEventListener('touchmove',function(){
+					flag = true;
+				});
+				liNodes[i].addEventListener('touchend',function(){
+					if(!flag){
+						//第二层for循环，给每一个li添加class属性
+						for (var j=0;j<liNodes.length;j++) {						
+							liNodes[j].className = '';						
+						};
+						//点击谁，谁是this
+						this.className = 'active';
+					};
+					
+					//重置
+					flag = false;
+				});
+			};
+			
+			
+		};
+		
+		
+		
+		
+		//菜单按钮切换
+		
+		function changeMenu(){
+			var menuBtn = document.getElementById('menuBtn');
+			var list = document.getElementById('list');
+			
+			menuBtn.addEventListener('touchstart',function(event){
+				//菜单按钮处于关闭状态，我需要开启 
+				//遮罩层出现
+				if(menuBtn.className == 'menuBtnClose'){
+					menuBtn.className = 'menuBtnOpen';
+					list.style.display = 'block';
+				}else if(menuBtn.className == 'menuBtnOpen'){
+					menuBtn.className = 'menuBtnClose';
+					list.style.display = 'none';
+				};
+					
+				//取消冒泡
+				event.stopPropagation();
+			});
+			
+			document.addEventListener('touchstart',function(){
+				if(menuBtn.className == 'menuBtnOpen'){
+					menuBtn.className = 'menuBtnClose';
+					list.style.display = 'none';
+				};
+			});
+			//点击遮罩层 盒子不消失
+			list.addEventListener('touchstart',function(){
+				//取消冒泡
+				event.stopPropagation();
+			});
+			
+		};
+		
+		
+		
+	</script>
+</html>

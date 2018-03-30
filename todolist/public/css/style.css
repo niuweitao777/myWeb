@@ -1,0 +1,372 @@
+body,html{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.wrap{
+	width:80%;
+	margin:0 auto;
+}
+.content {
+	margin-top: 72px;
+}
+/*头部*/
+.header{
+	background: #FFFFFF;
+	border-bottom: 5px solid rgba(192, 192, 192, 0.31);
+	position: fixed;
+	top: 0px;
+	z-index: 5;
+	opacity: 0.97;
+	width:100%;
+}
+.logo{
+	float:left;
+}
+.logo a{
+	font-family: 'gandhi_sansregular';
+	color: #2a323a;
+	text-transform: uppercase;
+	font-size: 24px;
+	display: block;
+	padding: 20px;
+}
+.top-nav{
+	float:right;
+}
+.top-nav ul li{
+	display:inline-block;
+}
+.top-nav ul li a{
+	font-family: 'gandhi_sansregular';
+	color: #2a323a;
+	padding: 20px;
+	display: block;
+	text-transform: uppercase;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.top-nav li.active> a, .top-nav li> a:hover {
+	border-top: 5px solid #36b3eb;
+	color: #36b3eb;
+}
+#me a{
+	overflow: hidden;
+	display: inline-block;
+}
+#me a img{
+	width: 200px;
+
+}
+/*---End-header---*/
+/*---content----*/
+.box1{
+	background:#36b3eb;
+	text-align:center;
+	padding: 50px 0px;
+	background-image: url("../images/home-bg.jpg");
+}
+.box1 h3{
+	font-family: 'gandhi_sansregular';
+	color: #FFF;
+	font-size: 2.2em;
+}
+.box1 img{
+	background:#fff;
+	padding:3px;
+	border-radius: 50%;
+}
+.box1 p a,.box1 p{
+	font-family: 'gandhi_sansregular';
+	color: #FFF;
+	font-size: 1.4em;
+	line-height: 1.5em;
+}
+.box1 p{
+	width: 57%;
+	margin:0 auto;
+	font-size: 1.5em;
+}
+.box1 p a{
+	font-size: 1em;
+	padding-left: 5px;
+	color:#2a323a;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.box1 p a:hover{
+	color:#FFF;
+}
+/*---box2----*/
+.box2 h3{
+	font-family: 'gandhi_sansregular';
+	color: #2A323A;
+	font-size: 2.2em;
+}
+.box2 p{
+	font-family: 'gandhi_sansregular';
+	color: #2A323A;
+	font-size: 1.4em;
+	line-height: 1.5em;
+	padding-bottom: 20px;
+}
+.box2{
+	text-align:center;
+	padding: 50px 0px;
+}
+.box2 ul li{
+	display:inline-block;
+	background:#eee;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+
+	padding: 15px 0px 0px 0px;
+	margin: 0px 3px;
+}
+.box2 ul li img{
+	height:100%;
+}
+.box2 ul li a,.box2 ul li img{
+	display:block;
+	text-align: center;
+	margin: 0 auto;
+}
+.box2 ul li a{
+	font-family: 'gandhi_sansregular';
+	color: #FFFFFF;
+	margin-top: 12px;
+	background: #2A323A;
+	display: block;
+	padding: 8px 32px;
+	text-transform: uppercase;
+	font-size: 0.875em;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.box2 ul li a:hover{
+	color:#36b3eb;
+}
+/*----box3-----*/
+.box3{
+	background:#F5F5F5;
+	padding: 50px 0px;
+}
+.box3-header{
+	text-align: center;
+	border-bottom: 1px solid rgba(192, 192, 192, 0.44);
+	width: 66%;
+	margin: 0 auto;
+}
+.box3-header h3{
+	font-family: 'gandhi_sansregular';
+	color: #2A323A;
+	font-size: 2.3em;
+	padding-bottom: 1px;
+}
+.box3-header p{
+	font-family: 'gandhi_sansregular';
+	color: #2A323A;
+	font-size: 1.4em;
+	line-height: 1.5em;
+	padding-bottom: 20px;
+}
+.box3-left{
+	float: left;
+	width: 42%;
+}
+
+.box3-left ul li{
+	display:inline-block;
+}
+.box3-left ul li a{
+	padding: 9px;
+}
+.box3-left h3{
+	font-family: 'gandhi_sansregular';
+	color: #2A323A;
+	font-size: 1.9em;
+	padding: 0px 0px 5px 0px;
+}
+
+.box3-right{
+	float: right;
+	width: 57%;
+	background: #fff;
+	padding: 4px;
+	box-shadow: 0px 0px 10px rgba(136, 136, 136, 0.14);
+}
+.box3-content{
+	width: 65%;
+	margin:0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.button{
+	font-family: 'gandhi_sansregular';
+	color: #FFFFFF;
+	margin-top: 12px;
+	background: #36b3eb;
+	display: inline-block;
+	padding: 15px 32px;
+	text-transform: uppercase;
+	font-size: 0.875em;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.button:hover{
+	background: #2A323A;
+}
+.box3-left ul{
+	margin: 0px 0px 9px -36px;
+}
+/*----twiiter-box----*/
+.twiiter-box{
+	padding: 50px 0px;
+	text-align:center;
+}
+.twiiter-box p{
+	font-family: 'gandhi_sansregular';
+	color: #2A323A;
+	font-size: 1em;
+	line-height: 1.8em;
+	padding-bottom: 20px;
+	font-size: 1.2em;
+}
+.twiiter-box p a{
+	color:#36b3eb;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	font-size: 1.1em;
+}
+.twiiter-box p a:hover{
+	color:#2A323A;
+}
+/*---contact----*/
+.contact{
+	background: #36b3eb;
+	text-align: center;
+	padding: 50px 0px;
+}
+.contact h3{
+	font-family: 'gandhi_sansregular';
+	color: #FFF;
+	font-size: 2.2em;
+	padding-bottom: 4px;
+}
+.contact input[type="text"]{
+	width: 40%;
+	display: inline-block;
+	padding: 10px;
+	margin: 20px 9px;
+	font-family: 'gandhi_sansregular';
+	color: #2A323A;
+	font-size: 1em;
+	outline: none;
+}
+.contact textarea{
+	width: 83%;
+	margin: 0 auto;
+	display: block;
+	padding: 10px;
+	margin-bottom: 20px;
+	height: 120px;
+	font-family: 'gandhi_sansregular';
+	color: #2A323A;
+	font-size: 1em;
+	outline: none;
+}
+.contact p{
+	font-family: 'gandhi_sansregular';
+	color: #FFF;
+	font-size: 1em;
+	line-height: 1.8em;
+	margin-bottom: 3px;
+}
+.contact input[type="submit"]{
+	font-family: 'gandhi_sansregular';
+	color: #FFFFFF;
+	margin-top: 12px;
+	background: #2A323A;
+	display: block;
+	padding: 12px 0px;
+	text-transform: uppercase;
+	font-size: 0.875em;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	border: none;
+	width: 84.3%;
+	margin: 0 auto;
+	outline: none;
+}
+.contact input[type="submit"]:hover{
+	background: #fff;
+	color:#2A323A;
+	cursor:pointer;
+}
+.catch-me{
+	text-align:center;
+	padding: 50px 0px;
+}
+.catch-me ul li{
+	display:inline-block;
+}
+.catch-me h3{
+	font-family: 'gandhi_sansregular';
+	color: #2A323A;
+	font-size: 2.2em;
+	padding-bottom: 12px;
+	text-transform: uppercase;
+}
+.catch-me p{
+	font-family: 'gandhi_sansregular';
+	color: #2A323A;
+	font-size: 1em;
+	line-height: 1.8em;
+	width: 51%;
+	margin: 0 auto;
+	padding-bottom: 22px;
+}
+.catch-me ul li a{
+	display: block;
+	margin: 0px 5px;
+	text-align: center;
+}
+.catch-me ul li a img{
+	border-radius: 50%;
+}
+#list{
+	padding-left: 0;
+}
+/*----footer----*/
+.footer{
+	text-align:center;
+	padding:10px;
+	background: #2A323A;
+}
+.footer p{
+	font-family: 'gandhi_sansregular';
+	color: #FFF;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+.footer p a{
+	color:#36b3eb;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.footer p a:hover{
+	color:#fff;
+}

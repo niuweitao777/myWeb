@@ -1,0 +1,15 @@
+{
+  "name": "todolist",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
+    "cookie": "^0.3.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.0.10",
+    "sha1": "^1.1.1"
+  }
+}
