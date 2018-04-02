@@ -7,6 +7,8 @@ a{
 }
 ul{
 	list-style: none;
+	height:61px;
+	text-align: end;
 }
 .wrap{
 	width:80%;
@@ -24,6 +26,7 @@ ul{
 	z-index: 5;
 	opacity: 0.97;
 	width:100%;
+	height:103px;
 }
 .logo{
 	float:left;
@@ -41,6 +44,9 @@ ul{
 }
 .top-nav ul li{
 	display:inline-block;
+	width: 72px;
+	height: 100%;
+
 }
 .top-nav ul li a{
 	font-family: 'gandhi_sansregular';
@@ -51,8 +57,14 @@ ul{
 	transition: 0.5s ease;
 	-o-transition: 0.5s ease;
 	-webkit-transition: 0.5s ease;
+	position: absolute;
+	bottom: 15px;
+}
+.top-nav li{
+
 }
 .top-nav li.active> a, .top-nav li> a:hover {
+
 	border-top: 5px solid #36b3eb;
 	color: #36b3eb;
 }
