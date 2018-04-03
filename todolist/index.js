@@ -30,7 +30,7 @@ require("./tools/db");
 app.set("view engine" , "ejs");
 app.set("views" , "views");
 app.use(require("./router/router"));
-// app.use(require("./router/router1"))
+app.use(require("./router/router1"))
 
 
 app.use(function (req, res) {

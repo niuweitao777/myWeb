@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>msg</title>
+</head>
+<body>
+<table width="80%" align="center" border="1">
+  <tr>
+    <td>name</td>
+    <td>tel</td>
+    <td>message</td>
+    <%
+    for (var i = 0; i < itmes.length; i++) {
+
+    %>
+  <tr>
+    <td><%=itmes[i].youname%></td>
+    <td><%=itmes[i].tel%></td>
+    <td><%=itmes[i].msg%></td>
+  </tr>
+    <%
+    }
+    %>
+
+
+  </tr>
+</table>
+</body>
+</html>

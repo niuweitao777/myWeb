@@ -40,6 +40,7 @@ router.get("/item_list", checkLogin, function (req, res) {
 
     Item.find({userId:userId, state:{$ne:0}}, function (err, itmes) {
         res.render("item_list", {items:itmes});
+        console.log()
     })
 
 
